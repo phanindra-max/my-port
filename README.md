@@ -1,20 +1,20 @@
-# Dev Portfolio
+# Phaninda's Portfolio
 
-🚀 **[Dev Portfolio V2 has arrived. Meet Devfolio, a modern portfolio + blog template built with GatsbyJS and TailwindCSS](https://github.com/RyanFitzgerald/devfolio)** 🚀
+- This my portfolio website to showcase all my work.
+- Check out the github page: [Phanindra's Website](https://phanindra-max.github.io/my-port/)
 
-This repo contains an easy-to-customize personal dev portfolio template that was created with Sass and JavaScript. It is lightweight and fully responsive, as well as comes with the Bootstrap grid system and loaded with Font Awesome. The site is static and comes production ready if you just want to add your information and go. Alternatively, you can edit styles, colours, and scripts fairly easily. The site was built as modular as possible to make it easy to shift around styles and content.
+## For making your own version of this website
 
-To view a live demo, [click here](https://ryanfitzgerald.github.io/devportfolio/).
+* Download or clone the (current repository)[https://github.com/phanindra-max/my-port]
 
-Looking for a blog template? Checkout [DevBlog](https://github.com/RyanFitzgerald/devblog).
+```SCSS
 
-## Features
+$ git clone https://github.com/phanindra-max/my-port
+$ cd my-port
 
-* Gulp ready (compiles Sass and minifies JS)
-* Sass ready with lots of commenting
-* Fully responsive
-* Comes with Bootstrap grid system
-* Easy colour changes can be done through simple variable edits
+```
+* Now, you start with changing personal details in `index.html` file
+* You can also customize it even further by editing the `CSS` ans `JS` files in their respective directories.
 
 ## Contents
 
@@ -44,10 +44,6 @@ The setup required can be broken into two types:
 2. If you just want to add your information as use as is
 
 ### Making Edits / Customizing the Template
-
-To setup, simply fork the repo and run `npm install` in order to get all the Gulp dev dependencies. Next, run `Gulp watch` to compile the Sass and minify the JavaScript. Alternatively, if you don't have Gulp installed globally, you can run the npm script `npm run watch`. Any changes done to the JavaScript (js/scripts.js) or Sass (sass/styles.scss) will be autocompiled and ready to go.
-
-All scripts are within `js/scripts.js` and get minified to `js/scripts.min.js`. All styles are in `sass/styles.scss` and get compiled to `css/styles.css`. Both the minified scripts file and compiled CSS file are what is loaded on the page by default.
 
 At this point, the page is ready to go and you can begin to add your own information and make any needed changes. The sections below  contains a quick breakdown of each of the default sections and how they work.
 
@@ -343,3 +339,7 @@ The optional section blocks have styling for h3 (the block title), h4, p, and ul
 ## License
 
 Completely free (MIT)! See [LICENSE.md](LICENSE.md) for more.
+
+## Disclaimer
+
+This is my version of another GitHub Repo by [RyanFitzgerald](https://github.com/RyanFitzgerald/). I am completely allowed to use it and not infringing anyone's works :-)
