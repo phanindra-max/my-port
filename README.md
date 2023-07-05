@@ -1,7 +1,7 @@
 # Phaninda's Portfolio
 
-- This my portfolio website to showcase all my work.
-- Check out the github page: [Phanindra's Website](https://phanindra-max.github.io/my-port/)
+- This is my portfolio website to showcase all my work.
+- Check out the GitHub page: [Phanindra's Website](https://phanindra-max.github.io/my-port/)
 
 ## For making your own version of this website
 
@@ -14,7 +14,7 @@ $ cd my-port
 
 ```
 * Now, you start with changing personal details in `index.html` file
-* You can also customize it even further by editing the `CSS` ans `JS` files in their respective directories.
+* You can also customize it even further by editing the `CSS` and `JS` files in their respective directories.
 
 ## Contents
 
@@ -45,7 +45,7 @@ The setup required can be broken into two types:
 
 ### Making Edits / Customizing the Template
 
-At this point, the page is ready to go and you can begin to add your own information and make any needed changes. The sections below  contains a quick breakdown of each of the default sections and how they work.
+At this point, the page is ready to go and you can begin to add your own information and make any needed changes. The sections below contain a quick breakdown of each of the default sections and how they work.
 
 ### Using The Template As Is
 
@@ -55,7 +55,7 @@ If you wish to use the template as is (i.e. how it's seen in the demo), then all
 
 ### General
 
-In general, most styles on the page are based off the definitions of variables in the variable section of the style sheet:
+In general, most styles on the page are based on the definitions of variables in the variable section of the style sheet:
 
 ```SCSS
 // Define base and accent colors
@@ -74,13 +74,11 @@ $heading: #374054;
 $text: #74808a;
 ```
 
-If you wish to change the general colour scheme of the page for example, simply change the value of `$base-color`.
-
-There is also a number of default CSS classes that can be applied such as `.shadow`, `.shadow-large`, `.btn-rounded-white`, and various others. These can be found under the General Styles section in the style sheet.
+If you wish to change the general color scheme of the page for example, simply change the value of `$base-color`.Several default CSS classes can be applied such as `.shadow`, `.shadow-large`, `.btn-rounded-white`, and various others. These can be found under the General Styles section in the style sheet.
 
 ### Images
 
-By default, the template comes with a number of images, some of which can be kept and others which act simply as placeholders and should be switched. The template contains the following:
+By default, the template comes with many images, some of which can be kept and others that act simply as placeholders and should be switched. The template contains the following:
 
 * Main background (images/lead-bg.jpg) - this is the main background image provided via [Unsplash](https://unsplash.com/). This can be kept or changed easily by replacing `images/lead-bg.jpg` with your new background (recommended size of at least 1920x1080).
 * Favicon (/favicon.ico) - this is the favicon used for the page. Similar to the main bg, this can be kept or changed easily by replacing the `favicon.ico` with your new one.
