@@ -1,4 +1,4 @@
-# Phaninda's Portfolio
+# Phanindra's Portfolio
 
 - This is my portfolio website to showcase all my work.
 - Check out the GitHub page: [Phanindra's Website](https://phanindra-max.github.io/my-port/)
